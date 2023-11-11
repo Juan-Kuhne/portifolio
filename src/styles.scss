@@ -1,2 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~bootstrap/dist/css/bootstrap.min.css'
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+  font-family: 'Apercu Mono';
+  src: url(./assets/fonts/FontsFree-Net-ApercuMono.ttf);
+}
+
+body {
+  background: linear-gradient(0deg, rgba(40,40,218,1) 0%, rgba(255,255,255,1) 100%) no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+  font-family: 'Apercu Mono';
+}
