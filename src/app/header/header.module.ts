@@ -6,6 +6,7 @@ import {
   bootstrapEmojiWinkFill,
   bootstrapHouseDoor,
   bootstrapListCheck,
+  bootstrapPersonLinesFill,
 } from '@ng-icons/bootstrap-icons';
 import { NgIconsModule } from '@ng-icons/core';
 import { HeaderComponent } from './header.component';
@@ -16,6 +17,7 @@ const icons = {
   bootstrapListCheck,
   bootstrapBook,
   bootstrapBuildings,
+  bootstrapPersonLinesFill,
 };
 
 @NgModule({
